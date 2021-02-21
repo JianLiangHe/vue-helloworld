@@ -5,6 +5,9 @@
         <p>
             <router-link to="/second">跳到第二个页面</router-link>
         </p>
+        <p>
+            <span class="blue-font">蓝色字体</span>
+        </p>
     </div>
 </template>
 
@@ -28,3 +31,13 @@ export default {
     }
 }
 </script>
+<style lang="less">
+.first-app {
+    font-size: 30px;
+    p {
+        .blue-font {
+            color: blue;
+        }
+    }
+}
+</style>
